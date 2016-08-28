@@ -12,9 +12,10 @@ public class EvenOdd {
         number = in.nextInt();
 
         if ((number%2)==0)
-        System.out.println(" The number you entered is even ");
+            System.out.println(" The number you entered is even ");
         else
-            System.out.println(" The number you entered is odd ");
+            if(number % 2 == 1)
+                System.out.println(" The number you entered is odd ");
 
     }
 
